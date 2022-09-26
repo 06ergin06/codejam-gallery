@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  /* Body */
+  body {
+    @apply bg-black;
+  }
+  /* Resimlerin sürüklenmesini engellemek için */
+  .picture,
+  .background {
+    pointer-events: none;
+  }
+  /* Tekrara düşmemek için  */
+  .center {
+    @apply flex flex-col justify-center items-center;
+  }
+  /* Sayfanın ilk giriş kısmı */
+  .background {
+    @apply absolute opacity-80 blur-xl;
+  }
+  .header-cont {
+    @apply center h-screen z-10;
+  }
+  .header1 {
+    @apply text-gray-300 text-[4.5rem] font-bold z-20 text-center tracking-widest;
+  }
+  .header2 {
+    @apply text-gray-300 text-xl z-20 text-center w-9/12;
+  }
+
+  /* Resimlerin olduğu kısım */
+  .container-picture {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-4 my-5;
+  }
+  .pictures {
+    @apply h-full w-full rounded scale-100 duration-300;
+  }
+  .pictures:hover {
+    @apply scale-105 z-10 transition-all ease-in-out;
+  }
+  .picture {
+    @apply rounded object-cover h-full w-full;
+  }
+  /* İndirme butonu */
+  .download-button-cont {
+    @apply relative w-fit;
+  }
+  .download-button-cont {
+    contain: content;
+    /* Elemanın div içinde kalması için */
+  }
+  .download-button {
+    @apply bg-green-700 px-1 rounded fixed right-2 top-2 z-20;
+  }
+  .download-button img {
+    @apply w-10 h-10 hover:translate-y-1 transition-all duration-300;
+  }
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    @apply w-2;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-800;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gray-900 rounded;
+  }
+  /* Font */
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+}
+@layer base {
+  /* Font */
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+}
