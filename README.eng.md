@@ -10,5 +10,5 @@ This project made for Yazılımcı Mekanı Codejam by İbrahim Hakkı Ergin.
 - tiny.png
 ## Image Optimization
 - The quality and resolution of the images have been reduced.
-- Sizes reduced from [tinypng]((https://tinypng.com/) site.
+- Sizes reduced from [tinypng](https://tinypng.com/) site.
 - (Images are downloaded in original quality, size and resolution)
