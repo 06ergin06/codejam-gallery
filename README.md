@@ -14,3 +14,12 @@ Bu proje Yazılımcı Mekanı Codejam için İbrahim Hakkı Ergin tarafından ya
 - Resimlerin kalite ve çözünürlüğü düşürülmüştür.
 - [tinypng](https://tinypng.com/) sitesinden boyutları düşürülmüştür.
 - (Resimiler orijinal kalite, boyut ve çözünürlükte indiriliyor)
+
+Çalıştırmak için 
+<code> yarn </code>
+ya da 
+<code>npm install</code>
+Sonra : 
+<code>yarn dev</code>
+ya da 
+<code>npm run dev</code>
