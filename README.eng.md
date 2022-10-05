@@ -1,4 +1,4 @@
-# Gallery
+# Gallery (I won)
 This project made for Yazılımcı Mekanı Codejam by İbrahim Hakkı Ergin.
 ### I use technologies
 - Reactjs
